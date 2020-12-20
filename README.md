@@ -44,7 +44,7 @@ Installation of TFOD and Performing Object Detection.
  
  **8> Copy "object_detection_tutorial.ipynb" file from "object_detection" folder [\research\object_detection] to "research" folder, then run jupyter notebook from "research" folder, and Open "object_detection_tutorial.ipynb".**
  
- **9> In "object_detection_tutorial.ipynb", There are 3 changes will be need as we have moved some files & folders locations:**
+ **9> In "object_detection_tutorial.ipynb", There are several changes required as we have moved some files' & folders' locations:**
   *   **Under "object Detection imports" cell, make a change in "from utils" to "from object_detection.utils" to avoid import error.**
  
    <img src="https://github.com/manthanpatel98/TFOD_Installation-Object_Detection/blob/main/tfod_images/Screenshot%20(328).png" width="650">
@@ -80,4 +80,4 @@ Installation of TFOD and Performing Object Detection.
 ---
 
 ### **NOTE:** 
-TFOD Framework works with only with RGB images, for B&W images we have to convert it to RGB.
+TFOD Framework works only with RGB images, for B&W images we have to convert it to RGB because the model is trained on RGB images.
