@@ -1,6 +1,9 @@
 # TFOD_Installation-Object_Detection
 Installation of TFOD and Performing Object Detection.
 
+<img src="https://github.com/manthanpatel98/TFOD_Installation-Object_Detection/blob/main/tfod_images/tensorflow.png" width="600">
+
+
 ## **TFOD Installation:**
 **1> Download official Github repo of TF-1 OD:**  https://github.com/tensorflow/models/tree/v1.13.0 **& Extract it in a folder.**
 
@@ -38,6 +41,23 @@ Installation of TFOD and Performing Object Detection.
          
  **8> Copy "object_detection_tutorial.ipynb" file from "object_detection" folder [\research\object_detection] to "research" folder, then run jupyter notebook from "research" folder, and Open "object_detection_tutorial.ipynb".**
  
- **9> In "object_detection_tutorial.ipynb", Under "object Detection imports" cell, make a change in "from utils" to "from object_detection.utils" to avoid import error.**
+ **9> In "object_detection_tutorial.ipynb", There are 3 changes will be need as we have moved some files & folders locations:**
+  *   **Under "object Detection imports" cell, make a change in "from utils" to "from object_detection.utils" to avoid import error.**
+ 
+   <img src="https://github.com/manthanpatel98/TFOD_Installation-Object_Detection/blob/main/tfod_images/Screenshot%20(328).png" width="650">
+ 
+  *   **Change path in PATH_TO_LABELS:**
+ 
+  <img src="https://github.com/manthanpatel98/TFOD_Installation-Object_Detection/blob/main/tfod_images/Screenshot%20(329).png" width="650">
+ 
+  *   **Change Under Detection PATH_TO_TEST_IMAGES_DIR:**
+ 
+  <img src="https://github.com/manthanpatel98/TFOD_Installation-Object_Detection/blob/main/tfod_images/Screenshot%20(332).png" width="650">
+ 
+## **Results:**
+
+<img src="https://github.com/manthanpatel98/TFOD_Installation-Object_Detection/blob/main/tfod_images/tf1.png" width="600">
+
+<img src="https://github.com/manthanpatel98/TFOD_Installation-Object_Detection/blob/main/tfod_images/tf2.png" width="600">
  
  
