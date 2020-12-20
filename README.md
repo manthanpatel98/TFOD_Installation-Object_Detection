@@ -36,7 +36,7 @@ Installation of TFOD and Performing Object Detection.
           protoc object_detection/protos/*.proto --python_out=.
          
          
- **8> Copy "object_detection_tutorial.ipynb" file from "object_detection" folder to "research" folder, then run jupyter notebook from "research" folder, and Open "object_detection_tutorial.ipynb".**
+ **8> Copy "object_detection_tutorial.ipynb" file from "object_detection" folder [\research\object_detection] to "research" folder, then run jupyter notebook from "research" folder, and Open "object_detection_tutorial.ipynb".**
  
  **9> In "object_detection_tutorial.ipynb", Under "object Detection imports" cell, make a change in "from utils" to "from object_detection.utils" to avoid import error.**
  
