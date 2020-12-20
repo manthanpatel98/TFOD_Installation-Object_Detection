@@ -42,6 +42,8 @@ Installation of TFOD and Performing Object Detection.
  
  ## **Object Detection:**
  
+ This is not a custom model. Generally, These TF models make prediction for specific number of classes. But, For Custom Dataset there are several other changes and processes are needed.
+ 
  **8> Copy "object_detection_tutorial.ipynb" file from "object_detection" folder [\research\object_detection] to "research" folder, then run jupyter notebook from "research" folder, and Open "object_detection_tutorial.ipynb".**
  
  **9> In "object_detection_tutorial.ipynb", There are several changes required as we have moved some files' & folders' locations:**
@@ -74,7 +76,7 @@ Installation of TFOD and Performing Object Detection.
 *  **Change this name at MODEL_NAME & Execute cells to get results:**
 
 
-  <img src="https://github.com/manthanpatel98/TFOD_Installation-Object_Detection/blob/main/tfod_images/Screenshot%20(331).png" width="650">
+<img src="https://github.com/manthanpatel98/TFOD_Installation-Object_Detection/blob/main/tfod_images/Screenshot%20(331).png" width="650">
 
 
 ---
