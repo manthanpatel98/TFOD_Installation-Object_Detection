@@ -71,7 +71,13 @@ Installation of TFOD and Performing Object Detection.
 
 <img src="https://github.com/manthanpatel98/TFOD_Installation-Object_Detection/blob/main/tfod_images/Screenshot%20(330).png" width="650">
 
-*  **Change this at MODEL_NAME:**
+*  **Change this name at MODEL_NAME & Execute cells to get results:**
 
-<img src="https://github.com/manthanpatel98/TFOD_Installation-Object_Detection/blob/main/tfod_images/Screenshot%20(331).png" width="650">
 
+  <img src="https://github.com/manthanpatel98/TFOD_Installation-Object_Detection/blob/main/tfod_images/Screenshot%20(331).png" width="650">
+
+
+---
+
+### **NOTE:** 
+TFOD Framework works with only with RGB images, for B&W images we have to convert it to RGB.
