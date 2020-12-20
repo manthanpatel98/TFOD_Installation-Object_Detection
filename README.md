@@ -38,7 +38,10 @@ Installation of TFOD and Performing Object Detection.
                  
           protoc object_detection/protos/*.proto --python_out=.
          
-         
+ ---
+ 
+ ## **Object Detection:**
+ 
  **8> Copy "object_detection_tutorial.ipynb" file from "object_detection" folder [\research\object_detection] to "research" folder, then run jupyter notebook from "research" folder, and Open "object_detection_tutorial.ipynb".**
  
  **9> In "object_detection_tutorial.ipynb", There are 3 changes will be need as we have moved some files & folders locations:**
@@ -60,4 +63,15 @@ Installation of TFOD and Performing Object Detection.
 
 <img src="https://github.com/manthanpatel98/TFOD_Installation-Object_Detection/blob/main/tfod_images/tf2.png" width="600">
  
- 
+---
+
+## **How to use another Model?**
+
+*  **To add another model goto the [TensorFlow 1 Detection Model Zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf1_detection_zoo.md) & hover over the model name which will show model's exact name at the left bottom corner:**
+
+<img src="https://github.com/manthanpatel98/TFOD_Installation-Object_Detection/blob/main/tfod_images/Screenshot%20(330).png" width="650">
+
+*  **Change this at MODEL_NAME:**
+
+<img src="https://github.com/manthanpatel98/TFOD_Installation-Object_Detection/blob/main/tfod_images/Screenshot%20(331).png" width="650">
+
