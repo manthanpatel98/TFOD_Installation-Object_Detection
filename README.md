@@ -1,4 +1,4 @@
-# TFOD_Installation-Object_Detection
+# TFOD_Installation-&-Object_Detection
 Installation of TFOD and Performing Object Detection.
 
 <img src="https://github.com/manthanpatel98/TFOD_Installation-Object_Detection/blob/main/tfod_images/tensorflow.png" width="600">
