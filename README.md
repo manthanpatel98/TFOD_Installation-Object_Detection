@@ -4,7 +4,7 @@ Installation of TFOD and Performing Object Detection.
 <img src="https://github.com/manthanpatel98/TFOD_Installation-Object_Detection/blob/main/tfod_images/tensorflow.png" width="600">
 
 
-## **TFOD Installation:**
+## **TF-1 OD Installation:**
 **1> Download official Github repo of TF-1 OD:**  https://github.com/tensorflow/models/tree/v1.13.0 **& Extract it in a folder.**
 
 **2> Create Virtual Environment in [Anaconda](https://www.anaconda.com/) with python=3.6:**   
@@ -15,7 +15,7 @@ Installation of TFOD and Performing Object Detection.
              
     conda activate tfod
 
-**4> Install required libraries for tensorflow:** 
+**4> Install required libraries for tensorflow-1:** 
 
     pip install pillow lxml Cython contextlib2 jupyter matplotlib pandas opencv-python tensorflow==1.14.0
 
